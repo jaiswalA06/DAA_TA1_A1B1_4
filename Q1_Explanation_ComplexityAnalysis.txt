@@ -1,0 +1,13 @@
+Q.1: Study the Map Data Structure and illustrate with necessary examples
+
+Explanation:-
+Maps are data structures, that are represented in the form of key value pairs, wherein each keys has to be unique but the values may
+repeat.
+In the first Approach, I have used array representation for maps. First, i declared a structure maps with two members; key and value.
+and then I've created an array of this structure. Further I've used the keys to access the value.
+In the second Approach, I've used hashmap. First i created a linked list like data structure, which has three data structures: key, values and next. So we will be using modulus method for hashing. For each key will generate and hash table index using modulus operator so that the index is within table size, then if two key value pair get the same index then a linked list is prepared at that index to avoid collision. this is a more efficient method.
+
+Time Complexity Analysis:-
+For first approach: In this array-based map, searching requires checking each element linearly, so the time complexity is O(n).
+The space complexity is O(n) since all key-value pairs are stored directly in the array.
+For second Approach: In this hash map implementation, average-case search and insertion take O(1) time due to direct indexing via the hash function. However, in the worst case (many collisions), operations degrade to O(n)
