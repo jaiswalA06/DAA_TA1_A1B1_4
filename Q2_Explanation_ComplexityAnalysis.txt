@@ -1,0 +1,7 @@
+Q.2: Program to find majority element from an array using Moore Voting Algorithm
+
+Explanation:-
+In my code, I used the Moore’s Voting Algorithm to find the majority element. First, I pick a candidate by increasing or decreasing a counter based on matches. Then, I check again if this candidate actually appears more than half the size of the array. If it does, I print it as the majority element, otherwise I say no majority exists.
+
+Time Complexity Analysis:-
+The algorithm runs in O(n) time because it makes just two passes over the array. First pass to find the candidate and another second pass to verify whether the result we generated is actually the majority element.

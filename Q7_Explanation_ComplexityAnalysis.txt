@@ -1,0 +1,7 @@
+Q.7: Lemonade Change problem.
+
+Explanation:-
+In this program, I keep track of how many $5 and $10 notes I have at each step. Every time a customer pays, I try to give the change using the bigger notes first (like using a $10 + $5 for a $20, or three $5s if no $10 is available). If at any point I can’t give the correct change, the function returns false. Otherwise, if I finish the loop, it means I managed to return changes to all the customers.
+
+Time Complexity Analysis:-
+The program just goes through the bills once, so the time complexity is O(n) where n is the number of customers.

@@ -1,0 +1,7 @@
+Q.8: Program to remove the nth back node from Linked List
+
+Explanation:-
+Here, I first build the linked list using the insert function. To remove the nth node from the back, I calculate its position from the front (size-n). Then I traverse the list until I reach that node, adjust the links to delete node, and free the memory of the deleted node. This way the node gets removed and the list remains intact.
+
+Time Complexity Analysis:-
+Since I only go through the list once to reach the node to be deleted, the time complexity is O(n) where n is the size of the list.

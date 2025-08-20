@@ -1,0 +1,7 @@
+Q.5: Program to Flattening the linked list
+
+Explanation:-
+In this problem, the linked list is not just a simple straight list, but every node can also have a down pointer that makes another linked list. The main idea is that I used the merge technique (like in merge sort). First, I go recursively to flatten the next list, and then I merge the current list with that one. While merging, I compare the nodes and keep attaching the smaller one, making sure to always use the down pointer to build the final flattened list. The next pointers are set to NULL because in the end, we only want one single list that goes downwards.
+
+Time Complexity Analysis:-
+The program flattens the linked list by merging one list with another repeatedly. Since each merge takes linear time, the overall time complexity is about O(n*k), where n is nodes per list and k is the number of lists.

@@ -1,0 +1,7 @@
+Q.4: Program to detect a longest consecutive sequence in an array
+
+Explanation:-
+I sorted the array first so that all consecutive numbers appear next to each other. Then I went through the array one by one, checking if the next element continues the sequence. Whenever the sequence broke, I reset the counter, and in the end the biggest counter I got was the length of the longest consecutive sequence.
+
+Time Complexity Analysis:-
+The sorting step takes O(n log n) time, since I used quicksort. After that, I just go through the array once which is O(n). So overall, the time complexity is O(n log n).

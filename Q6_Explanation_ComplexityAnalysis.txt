@@ -1,0 +1,7 @@
+Q.6: Program to find out Minimum number of platforms required for running trains
+
+Explanation:-
+In this program, I solved the problem by first sorting both the arrival and departure times. Then, I used two pointers—one for arrivals and one for departures—and checked if the next train is arriving before the previous one leaves. If so, I increased the platform count, otherwise decreased it. By keeping track of the maximum platforms used at any moment, I got the minimum number of platforms needed.
+
+Time Complexity Analysis:-
+Since both arrival and departure arrays are sorted first (quick sort), sorting takes O(nlogn). The traversal with two pointers is O(n), so the overall time complexity is O(nlogn).

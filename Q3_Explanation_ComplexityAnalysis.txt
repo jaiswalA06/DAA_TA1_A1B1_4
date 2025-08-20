@@ -1,0 +1,7 @@
+Q.3: Program to detect a loop in linked list.
+
+Explanation:-
+In this program, I made a linked list and then used Floyd’s algorithm to check for a loop. I kept two pointers: one moves one step at a time (slow) and the other moves two steps (fast). If there’s a loop, they will eventually meet at the same node; otherwise, the fast pointer reaches NULL and we know there’s no loop.
+
+Time Complexity Analysis:-
+The time complexity of Floyd’s Loop Detection is O(n), since in the worst case both pointers together traverse the linked list linearly. Thus, the overall time complexity remains linear, making the algorithm very efficient.
